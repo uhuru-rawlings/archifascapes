@@ -740,16 +740,16 @@ h6,
         margin-top: 40px !important;
         margin-bottom: 10px !important;
     }
-}
-.carousel-inner{
-    height: 70dvh !important;
-    min-height: 70dvh !important;
-}
-.carousel-item, .header-carousel{
-    height: 100% !important;
-    min-height: 100% !important;
-}
-.carousel-item img{
-    height: 100% !important;
-    object-fit: cover !important;
+    .carousel-inner{
+        height: 70dvh !important;
+        min-height: 70dvh !important;
+    }
+    .carousel-item, .header-carousel{
+        height: 100% !important;
+        min-height: 100% !important;
+    }
+    .carousel-item img{
+        height: 100% !important;
+        object-fit: scale-down !important;
+    }
 }
