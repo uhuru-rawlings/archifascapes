@@ -719,6 +719,9 @@ h6,
 .navbar-brand.me-0.d-flex.align-items-center.flex-wrap-wrap{
     padding-left: 3rem;
 }
+#disapear{
+    display: none !important;
+}
 @media screen and (max-width: 580px){
     .navbar-brand.me-0.d-flex.align-items-center.flex-wrap-wrap{
         padding-left: 3px !important;
@@ -737,7 +740,7 @@ h6,
     }
     .navbar-toggler.me-0{
         margin: auto !important;
-        margin-top: 40px !important;
+        margin-top: 10px !important;
         margin-bottom: 10px !important;
     }
     .carousel-inner{
@@ -751,5 +754,15 @@ h6,
     .carousel-item img{
         height: 100% !important;
         object-fit: scale-down !important;
+    }
+    .logo_{
+        display: none !important;
+    }
+    #disapear{
+        display: block !important;
+    }
+    .navbar.navbar-expand-lg{
+        display: block !important;
+        text-align: center !important;
     }
 }
