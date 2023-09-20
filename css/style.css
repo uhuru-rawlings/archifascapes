@@ -741,8 +741,8 @@ h6,
         margin-bottom: 10px !important;
     }
     .carousel-inner{
-        height: 70dvh !important;
-        min-height: 70dvh !important;
+        height: 60dvh !important;
+        min-height: 60dvh !important;
     }
     .carousel-item, .header-carousel{
         height: 100% !important;
