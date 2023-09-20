@@ -721,11 +721,19 @@ h6,
 }
 @media screen and (max-width: 580px){
     .navbar-brand.me-0.d-flex.align-items-center.flex-wrap-wrap{
-        padding-left: 3px;
+        padding-left: 3px !important;
+    }
+    .navbar .navbar-brand{
+        padding-right: 0px !important;
+    }
+    .navbar.navbar-expand-lg.bg-white.navbar-light.sticky-top.py-0.pe-5{
+        padding-right: 3px !important;
     }
     #navbar-logo-section{
         display: block !important;
         text-align: center !important;
+        width: 100% !important;
+        padding-left: 3px !important;
     }
     .navbar-toggler.me-0{
         margin: auto !important;
