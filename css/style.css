@@ -701,3 +701,14 @@ h6,
     color: #B0B9AE;
     border-top: 1px solid rgba(255, 255, 255, .1);
 }
+.carousel-item img{
+    width: 100% !important;
+    object-position: center !important;
+    object-fit: contain !important;
+}
+#navbar-logo-section span{
+    font-size: 14px !important;
+}
+#navbar-logo-section{
+    color: var(--dark) !important;
+}
