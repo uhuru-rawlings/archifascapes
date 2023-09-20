@@ -716,8 +716,13 @@ h6,
 .navbar.navbar-expand-lg.bg-white.navbar-light.sticky-top.py-0.pe-5{
     width: 100vw !important;
 }
-
+.navbar-brand.me-0.d-flex.align-items-center.flex-wrap-wrap{
+    padding-left: 3rem;
+}
 @media screen and (max-width: 580px){
+    .navbar-brand.me-0.d-flex.align-items-center.flex-wrap-wrap{
+        padding-left: 3px;
+    }
     #navbar-logo-section{
         display: block !important;
         text-align: center !important;
