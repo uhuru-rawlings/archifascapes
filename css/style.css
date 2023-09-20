@@ -706,9 +706,10 @@ h6,
     object-position: center !important;
     object-fit: contain !important;
 }
-#navbar-logo-section span{
-    font-size: 14px !important;
-}
 #navbar-logo-section{
     color: var(--dark) !important;
+}
+#navbar-logo-section span{
+    font-size: 14px !important;
+    color: #000000;
 }
